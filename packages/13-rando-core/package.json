@@ -1,0 +1,17 @@
+{
+    "name": "13-rando-core",
+    "version": "1.0.0",
+    "description": "Core information for FF13 Randomiser",
+    "author": "MLSTRM (Christopher Wall)",
+    "license": "MIT",
+    "private": true,
+    "main": "build/index.js",
+    "scripts": {
+      "clean": "rimraf ./build/**",
+      "build": "tsc -b ."
+    },
+    "devDependencies": {
+      "typescript": "^4.5.2"
+    }
+  }
+  

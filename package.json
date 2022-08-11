@@ -1,0 +1,33 @@
+{
+  "name": "13-rando-tracker",
+  "version": "1.0.0",
+  "description": "Tracker for FF13 Randomiser",
+  "author": "MLSTRM (Christopher Wall)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "wsrun -s build",
+    "test-auto": "yarn --cwd packages/13-rando-autotracker test",
+    "start-ui": "yarn --cwd packages/13-rando-electron start",
+    "distribute": "yarn run build && yarn electron-packager ./packages/13-rando-electron 13-rando-tracker --overwrite --asar=true"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+        "**/electron", "**/electron/**", "**/memoryjs", "**/memoryjs/**", "**/cheerio", "**/cheerio/**"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "wsrun": "^5.2.4",
+    "tsc": "^2.0.3",
+    "ts-node": "^10.4.0",
+    "electron": "^16.0.0",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+
+  }
+}

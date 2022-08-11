@@ -1,0 +1,60 @@
+import { Bosses } from "..";
+
+//TODO: resolve bhuni and omegas
+export const BtScoreMap = {
+    'btscore000': Bosses.ZALTYS_PROLOGUE,
+    'btscore001': Bosses.NOEL,
+    'btscore002': Bosses.NOEL,
+    'btscore003': Bosses.SNOW,
+    'btscore004': Bosses.SNOW,
+    'btscore005': Bosses.SNOW,
+    'btscore006': Bosses.CAIUS,
+    'btscore007': Bosses.GRENDEL,
+    'btscore008': Bosses.GRENDEL,
+    'btscore050': Bosses.AERONITE,
+    'btscore051': Bosses.ERESHKIGAL
+}
+
+export const btscBossMap = Object.freeze({
+    'btsc05610': 'Zaltys',
+    'btsc01800': 'Noel',
+    'btsc01801': 'Noel',
+    'btsc05900': 'Snow',
+    'btsc05901': 'Snow',
+    'btsc05902': 'Snow',
+    'btsc06800': 'Caius',
+    'btsc06801': 'Caius',
+    'btsc07800': 'Grendel',
+    'btsc07801': 'Grendel',
+    'btsc11900': 'Ereshkigal',
+    'btsc04990': 'Aeronite',
+
+    'btsc10001': 'Cyclops Omega',
+    'btsc10002': 'Zaltys Omega',
+    'btsc10003': 'Zomok Omega',
+    'btsc10004': 'Chocobo Eater Omega',
+    'btsc10005': 'Earth Eater Omega',
+    'btsc10006': 'Reaver Omega',
+    'btsc10007': 'Dreadnought Omega',
+    'btsc10008': 'Aster Protoflorian Omega',
+    'btsc10009': 'Gurangatch Omega',
+    'btsc10014': 'Gaunt Omega',
+    'btsc10015': 'Dryad Omega',
+    'btsc10017': 'Skeleton Omega',
+    'btsc10018': 'Ectopudding Omega',
+    'btsc10019': 'Schrodinger Omega',
+    'btsc10020': 'Gorgonopsid Omega',
+    'btsc10021': 'Desert Sahagin Omega',
+    'btsc10022': 'Triffid Omega',
+    'btsc10023': 'Meonekton Omega',
+    'btsc10024': 'Staka\'ne Omega',
+    'btsc10025': 'Niblet Omega',
+    'btsc10026': 'Goblot Omega',
+    'btsc10027': 'Hanuman Omega',
+    'btsc10029': 'Gremlin Omega',
+    'btsc10030': 'Goblin Omega',
+    'btsc10031': 'Rafflesia Omega',
+    'btsc10032': 'Miniflan Omega',
+    'btsc10033': 'Hoplite Omega',
+    'btsc10035': 'Cactuar Omega'
+}) as {[key: string]: string};
